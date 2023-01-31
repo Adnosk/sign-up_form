@@ -349,3 +349,8 @@
 #right {
     width: 60vw;
 }
+
+.logo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
