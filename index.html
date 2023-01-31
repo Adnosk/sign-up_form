@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,59 @@
     <link rel="stylesheet" href="style.css">
     <title>Sign up Form</title>
 </head>
+
 <body>
     <div id="container">
         <div id="left">
             <img src="img/halie-west-25xggax4bSA-unsplash.jpg" alt="Green plant">
-            <img src="img/odin-lined.png" alt="Odin's head">
-            <div id="attribution">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+            <img src="img/odin-lined.png" alt="Odin's head"><span class="odin">Odin</span>
+            <div id="attribution">Photo by <a
+                    href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie
+                    West</a> on <a
+                    href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
         </div>
         <div id="right">
-            <p class="big">This is not a real online service! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, magnam culpa eum fugiat autem vero explicabo dolorem repudiandae, enim corrupti quis non necessitatibus ex reiciendis rerum accusamus officia harum nisi?</p>
+            <p class="big">This is not a real online service! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, magnam culpa eum fugiat autem vero explicabo dolorem repudiandae, enim corrupti quis non
+                necessitatibus ex reiciendis rerum accusamus officia harum nisi?</p>
             <p class="big">You know you want to.</p>
+
+            <form action="#" method="post">
+                <div class="form-bg">
+                    <h2>Let's do this!</h2>
+                    <div class="input">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="input">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                    <div class="input">
+                        <label for="psw">Password</label>
+                        <input type="password" name="psw" id="psw">
+                    </div>
+                    <div class="input">
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" name="confirm" id="confirm">
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an Account? <a href="#">Log in</a></p>
+
         </div>
     </div>
-    
+
 </body>
+
 </html>
