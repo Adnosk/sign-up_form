@@ -7,7 +7,8 @@
 }
 
 :root {
-  --txtpdn: 0px 40px;
+  --txtpdn: 40px;
+  --dgreen: #596D48;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -363,10 +364,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f5f5f5;
 }
 
 #right > * {
-  padding: var(--txtpdn);
+  padding-left: var(--txtpdn);
+  padding-right: var(--txtpdn);
 }
 
 #right p:first-child {
@@ -401,5 +404,40 @@ body {
 
 .big {
   font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.form-bg {
+  background-color: white;
+  box-shadow: 6px 6px 7px -8px #000;
+  padding-bottom: 30px;
+}
+
+#submit-button {
+  padding-top: 30px;
+}
+
+#myform {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-col {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 30vh;
+}
+
+#myform-btn {
+  background-color: var(--dgreen);
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
   font-weight: bold;
 }

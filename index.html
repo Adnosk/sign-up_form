@@ -27,36 +27,38 @@
                 Ducimus, magnam culpa eum fugiat autem vero explicabo dolorem repudiandae, enim corrupti quis non
                 necessitatibus ex reiciendis rerum accusamus officia harum nisi?</p>
             <p class="big">You know you want to.</p>
-
-            <form action="#" method="post">
-                <div class="form-bg">
-                    <h2>Let's do this!</h2>
-                    <div class="input">
+            <div class="form-bg">
+                <h2>Let's do this!</h2>
+                <form action="#" method="post" id="myform">
+                    
+                    <div class="input-col">
                         <label for="first-name">First Name</label>
                         <input type="text" name="first-name" id="first-name">
                     </div>
-                    <div class="input">
+                    <div class="input-col">
                         <label for="last-name">Last Name</label>
                         <input type="text" name="last-name" id="last-name">
                     </div>
-                    <div class="input">
+                    <div class="input-col">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email">
                     </div>
-                    <div class="input">
+                    <div class="input-col">
                         <label for="phone">Phone Number</label>
                         <input type="tel" name="phone" id="phone">
                     </div>
-                    <div class="input">
+                    <div class="input-col">
                         <label for="psw">Password</label>
                         <input type="password" name="psw" id="psw">
                     </div>
-                    <div class="input">
+                    <div class="input-col">
                         <label for="confirm">Confirm Password</label>
                         <input type="password" name="confirm" id="confirm">
                     </div>
-                </div>
-                <button type="submit">Create Account</button>
+            </div>
+            <div id="submit-button">
+                <button type="submit" form="myform" id="myform-btn">Create Account</button>
+            </div>
             </form>
             <p>Already have an Account? <a href="#">Log in</a></p>
 
